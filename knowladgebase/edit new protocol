@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://staging.labguru.com/" />
+<title>add new protocol</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">add new protocol</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=login_text_field</td>
+	<td>efrat.bendavid+empty2@biodata.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=login_btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=Protocols</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=new_protocol</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=knowledgebase_protocol_name</td>
+	<td>protocol124</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=commit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.tencol &gt; div.inline_form_container &gt; div.actions.hidden &gt; span.inline_form_actions_edit &gt; a.edit_me</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=knowledgebase_protocol_source</td>
+	<td>source111</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='commit'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=knowledgebase_protocol_url</td>
+	<td>sdads</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='commit'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Logout&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to leave Labguru?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=login_text_field</td>
+	<td>efrat.bendavid+empty2@biodata.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=login_btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=Protocols</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=protocol124</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=delete-item</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Please note that all tubes, attachments and data associated with this item will also be deleted.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Logout&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to leave Labguru?</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
